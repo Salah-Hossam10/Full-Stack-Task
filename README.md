@@ -10,10 +10,7 @@ A React app to browse and select skip hire options with filters for size, road p
 - Displays price inclusive of VAT, hire period, and other key info
 - Highlights skips allowed on the road and those suitable for heavy waste
 - Responsive and accessible UI using Tailwind CSS and lucide-react icons
-
-## Demo
-
-![App Screenshot](link-to-screenshot-or-gif)
+  
 
 ## Installation
 
