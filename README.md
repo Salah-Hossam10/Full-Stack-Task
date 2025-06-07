@@ -1,50 +1,69 @@
-# React GitHub User Search
+Skip Hire Selector
+A React app to browse and select skip hire options with filters for size, road placement, and view modes.
 
-A simple React app to search GitHub users by username using the GitHub API.
+Features
+Browse skip hire options by size and availability
 
----
+Filter skips by size ranges and road placement permission
 
-## Features
+Toggle between grid and list views for easier browsing
 
-- Search GitHub users by username
-- Displays user profile info: avatar, name, bio, location, repos, followers, following
-- Responsive and clean UI
+Displays price inclusive of VAT, hire period, and other key info
 
----
+Highlights skips allowed on the road and those suitable for heavy waste
 
-## Installation & Running
+Responsive and accessible UI using Tailwind CSS and lucide-react icons
 
-1. Clone this repository:
+Demo
 
-```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
-Install dependencies:
+Installation
+Clone the repo
+
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/skip-hire-selector.git
+cd skip-hire-selector
+Install dependencies
 
 bash
 Copy
 Edit
 npm install
-Start the app locally:
+# or
+yarn install
+Run the app locally
 
 bash
 Copy
 Edit
 npm start
-The app will open at http://localhost:3000.
+# or
+yarn start
+Open http://localhost:3000 to view it in your browser.
 
 Usage
-Enter a GitHub username in the search box
+Select filters to narrow down skip options
 
-Click Search
+Click a skip card or row to select it
 
-View the user's profile details displayed below
+Switch between grid and list view using the icons in the header
 
-Technologies
-React
+Technologies Used
+React (functional components, hooks)
 
-GitHub REST API
+Tailwind CSS for styling
 
-CSS
+lucide-react for icons
 
+useMemo for efficient filtering
 
+Folder Structure
+bash
+Copy
+Edit
+/src
+  /components   # SkipCard, SkipRow, Filters, etc.
+  /assets      # Images, icons
+  App.js       # Main app component
+  index.js     # Entry point
