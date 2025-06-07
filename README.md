@@ -1,27 +1,25 @@
-Skip Hire Selector
+# Skip Hire Selector
+
 A React app to browse and select skip hire options with filters for size, road placement, and view modes.
 
-Features
-Browse skip hire options by size and availability
+## Features
 
-Filter skips by size ranges and road placement permission
+- Browse skip hire options by size and availability
+- Filter skips by size ranges and road placement permission
+- Toggle between grid and list views for easier browsing
+- Displays price inclusive of VAT, hire period, and other key info
+- Highlights skips allowed on the road and those suitable for heavy waste
+- Responsive and accessible UI using Tailwind CSS and lucide-react icons
 
-Toggle between grid and list views for easier browsing
+## Demo
 
-Displays price inclusive of VAT, hire period, and other key info
+![App Screenshot](link-to-screenshot-or-gif)
 
-Highlights skips allowed on the road and those suitable for heavy waste
+## Installation
 
-Responsive and accessible UI using Tailwind CSS and lucide-react icons
+1. Clone the repo
 
-Demo
-
-Installation
-Clone the repo
-
-bash
-Copy
-Edit
+```bash
 git clone https://github.com/yourusername/skip-hire-selector.git
 cd skip-hire-selector
 Install dependencies
@@ -64,6 +62,6 @@ Copy
 Edit
 /src
   /components   # SkipCard, SkipRow, Filters, etc.
-  /assets      # Images, icons
-  App.js       # Main app component
-  index.js     # Entry point
+  /assets       # Images, icons
+  App.js        # Main app component
+  index.js      # Entry point
